@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/*Inicio Header*/
+.nav{
+  background-color: #181818;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /*Para ficar no final da linha do cabeçalho*/
+}
+
+.nav-list{
+  display: flex;/*fica um do lado do outro*/
+  align-items: center;
+  list-style: none;
+  margin-right: 28px;
+
+}
+.nav-list a{
+  text-decoration: none; /*remove o subliinado dos link*/
+  color: #DDD;
+  padding: 20px; /*espacamento interno ao redor dos links*/
+}
+.nav-list a:hover{ /*quando passa o mouse em cima da ancora*/
+  color: #FFFFFF;
+}
+/*Fim Header*/
