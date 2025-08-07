@@ -33,3 +33,39 @@ body{
   color: #FFFFFF;
 }
 /*Fim Header*/
+/*Inicio main*/
+.main{
+  width: 100%;
+  background-color: #000;
+  height: calc(100vh - 80px); /*Calculo*/
+  background-image: url("images/programador.png");
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.main h1{
+  color: #FFFFFF;
+  font-size: 54px;
+}
+.main p{
+  font-size: 24px;
+  font-style: italic;
+  color: darkcyan;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+.call-to-action{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border: 0;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main a{
+  text-decoration: none;
+  color: #181818
+}
+/*Fim da main*/
