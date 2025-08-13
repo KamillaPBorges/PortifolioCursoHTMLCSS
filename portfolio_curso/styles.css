@@ -18,7 +18,7 @@ body{
 }
 
 .nav-list{
-  display: flex;/*fica um do lado do outro*/
+  display: flex;/*fica um do lado do outroo*/
   align-items: center;
   list-style: none;
   margin-right: 28px;
